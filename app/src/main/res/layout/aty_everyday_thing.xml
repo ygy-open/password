@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <data>
+
+    </data>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.CardView
+            android:layout_marginTop="40dp"
+            android:layout_width="380dp"
+            android:layout_height="400dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="3dp"
+            app:cardUseCompatPadding="true"
+            android:id="@+id/cv"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="10dp"
+                        android:text="@string/tv_today_of_things"
+                        android:textSize="13pt" />
+
+                    <TextView
+                        android:id="@+id/tv_thing_create_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:layout_marginTop="5dp"
+                        android:layout_weight="7"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="10dp"
+                        android:textSize="6pt" />
+
+                    <android.support.design.widget.FloatingActionButton
+                        android:id="@+id/btn_other_day_things"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        app:rippleColor="@color/base_bg"
+                        app:elevation="12dp"
+                        app:fabSize="mini"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginEnd="18dp"
+                        android:layout_marginRight="18dp"
+                        android:layout_gravity="center_vertical"
+                        app:srcCompat="@drawable/ic_contracts" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:background="@color/sandybrown"></LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <EditText
+                        android:id="@+id/et_things_everyday_todo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:hint="@string/et_what_today_todo"
+                        android:maxLines="20"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="10dp"
+                        android:textColor="@color/smssdk_gray" />
+
+                    <android.support.design.widget.FloatingActionButton
+                        android:id="@+id/btn_add_things"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="bottom"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/ic_add_24dp"
+                        android:layout_marginRight="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginBottom="14dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+                </RelativeLayout>
+
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+    </RelativeLayout>
+    </LinearLayout>
+
+</layout>

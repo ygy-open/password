@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">米玛</string>
+    <string name="action_settings">设置</string>
+    <string name="password_create_time">创建时间</string>
+    <string name="password_update_time">更新时间</string>
+    <string name="passord_item_name">密码名称</string>
+    <string name="tv_today_of_things">今日之事</string>
+    <string name="et_what_today_todo">听天做什么？</string>
+    <string name="tv_input_password">输入密码</string>
+    <string name="question_1">设置问题1</string>
+    <string name="answer_1">设置问题1答案</string>
+    <string name="question_2">设置问题2</string>
+    <string name="answer_2">设置问题2答案</string>
+    <string name="question_3">设置问题3</string>
+    <string name="answer_3">设置问题3答案</string>
+    <string name="my_history_things">我做过的事</string>
+    <string name="confirm_title">确定？</string>
+    <string name="confirm_message">你确定要删除此条记录</string>
+    <string name="button_delete">删除</string>
+    <string name="button_cancel">取消</string>
+    <string name="Cancel">放弃</string>
+    <string name="next">下一题</string>
+    <string name="my_password">我的密码</string>
+    <string name="passord_item_image_uri">图片地址</string>
+</resources>
